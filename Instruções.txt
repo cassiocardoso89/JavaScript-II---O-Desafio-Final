@@ -1,0 +1,22 @@
+Para o seguinte desafio, tomaremos como base os seguintes protótipos:
+
+Web - https://xd.adobe.com/view/5cfc905d-fcb3-4a8a-a0e6-7113a3cbe5a3-09af/
+Mobile - https://xd.adobe.com/view/5fa7fda5-5be9-417b-80c6-4916bcd9e3f9-0af4/
+
+O sistema é uma criação fictícia de um sistema de gerenciamento de planetas controlado por um usuário administrador. O sistema consiste em o usuário administrador poder logar no sistema com suas credencia controlar seus planetas;
+
+Com base nisso, o usuário administrador poderá realizar as seguintes ações:
+Acesso a todos os planetas;
+Acesso aos detalhes de cada planeta;
+Criar um planeta novo (IMPORTANTE: Ao criar um planeta novo, o mesmo precisa aparecer no fim da listagem);
+Filtrar os planetas por nome;
+Filtrar os planetas pelo valor de uma característica escolhida;
+Editar um planeta;
+Excluir um planeta (IMPORTANTE: Durante a exclusão, é preciso perguntar se o usuário tem certeza antes);
+Ver comparação geral entre os planetas através de uma tabela
+
+Crie também um arquivo .json que controle o login do usuário.    
+
+OBSERVAÇÕES: Melhorias são bem vindas, implementações extras também. Atente-se apenas em focar antes em entregar o proposto para depois tentar trazer soluções novas. O layout precisa ser inteiramente respeitado, tanto na parte da visualização quanto de ações. Será cobra que a solução atenda a TODOS os tamanhos de dispositivos disponíveis, de forma que fique numa visualização condizente para todos.Para obtenção dos dados, foi disponibilizado um arquivo .json (use da forma que achar necessário) juntamente com o caminho das imagens no seguinte acesso:
+
+https://drive.google.com/drive/folders/1iK46DxfgXq_PLLOKQCmJ7afUVUGMoztq?usp=sharing

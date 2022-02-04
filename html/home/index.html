@@ -1,48 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="../../style/style.css">
+    <link rel="stylesheet" href="../../style/header.css">
     <title>Home</title>
 </head>
+
 <body>
-    <header>
+    <header class="header">
         <img src="../../img/Logo.svg" alt="">
 
+        <ul class="usuarioMenu">
+            <li>
+                <i class="material-icons">person</i>
+                <p class="usuario">Usuario</p>
+                <i class="material-icons">expand_more</i>
+            </li>
+        </ul>
 
-        <label for="userOptions">Usuario</label>
+        <div class="modalGeral">
+            <ul>
+                <li class="conta">Minha conta</li>
+                <hr>
+                <li class="sair">Sair</li>
+            </ul>
+        </div>
 
-        <select name="userOptions" id="userOptions">
-            <option value=""></option>
-            <option value="MinhaConta">Minha Conta</option>
-            <option value="sair">Sair</option>
-        </select>
-
-        <!-- <div class="dropdown">
-            <button class="dropbtn">
-                <img src="../../img/user.svg" alt="">
-                <p>User</p>
-            </button>
-            <div class="dropdown-content">
-                <a href="#">Minha Conta</a>
-                <a href="#">Sair</a>
-            </div>
-        </div> -->
     </header>
-
+<hr>
     <section>
-        <h1>Sua jornada para desvendar o espaçõ começa aqui!</h1>
-        <p>Planetas e galaxias inteiras aguardam para serem exploradas!</p>
-        <p>O que vamos explorar hoje?</p>
+        <div class="mensagem">
+            <h1>Sua jornada para desvendar o espaço começa aqui!</h1>
+            <p>Planetas e galaxias inteiras aguardam para serem exploradas!</p>
+            <p>O que vamos explorar hoje?</p>
+        </div>
 
-        <ul>
+        <ul class="menu">
             <li>Planetas</li>
             <li>Asteroides</li>
             <li>Estrelas</li>
             <li>Galáxias</li>
         </ul>
     </section>
+
+
+    <script src="../../js/menuUsuario.js"></script>
 </body>
+
 </html>

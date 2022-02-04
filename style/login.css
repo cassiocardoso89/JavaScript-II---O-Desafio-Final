@@ -1,0 +1,75 @@
+.sectionGeral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 14px;
+}
+
+.formularioContainer{
+    background: #202024 0% 0% no-repeat padding-box;
+    border: 1px solid #70707040;
+    border-radius: 8px;
+    max-width: 423px;
+    max-height: 378px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 20px;
+}
+
+/* .formulario{
+    display: flex;
+    flex-direction: column;
+} */
+
+.userName, .password{
+    width: 353px;
+    height: 45px;
+    background: #121214 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    border: 1px solid #121214;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #CDCDCD;
+    text-align: left;
+    font: normal normal normal 14px/19px Roboto;
+}
+
+.esqueciPwd, .esqueciPwd:hover, .esqueciPwd:active, .esqueciPwd:focus{
+    color: #6BCECC;
+    font-weight: bolder;
+    font: normal normal bolder 14px/19px Roboto;
+    margin-bottom: 20px;
+}
+
+
+.submitBtn{
+    display: block;
+    background: #6BCECC 0% 0% no-repeat padding-box;
+    border: #6BCECC 1px solid;
+    border-radius: 4px;
+    width: 353px;
+    height: 45px;
+    font: normal normal bold 16px/21px 'Roboto';
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+
+
+/* lado direito */
+.mesage{
+    display: block;
+    margin-left: 100px;
+}
+
+.mesage h1{
+    text-align: left;
+    font: normal normal bold 60px/78px Roboto;
+    letter-spacing: 0px;
+    color: #ECECEC;
+    opacity: 1;
+    max-width: 388px;
+}

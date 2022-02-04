@@ -59,7 +59,7 @@ function logar() {
             }
         }
         if (userFound) {
-            window.location.href = "../home/index.html";
+            window.location.href = "../home/";
         } else {
             alert("Usuário ou senha incorretos!");
         }
